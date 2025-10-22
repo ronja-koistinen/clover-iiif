@@ -153,7 +153,7 @@ const buildOptions = {
           return `index.umd.js`;
         },
       },
-      minify: "esbuild",
+      minify: false,
       plugins: [],
       rollupOptions: {
         treeshake: true,
